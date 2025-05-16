@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "MedicalPoint\WebAPI\WebAPI.csproj", "{EB239A95-B162-4E6B-943D-D5A2694D56A1}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "MedicalPoint\Core\Core.csproj", "{252E45DE-DC6C-4118-8C29-1B73654E5B26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "MedicalPoint\Entities\Entities.csproj", "{2C56C493-AD74-4265-AB48-140DF969DA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{09021AE5-5E93-42C9-B38D-28B061EFDFF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2C56C493-AD74-4265-AB48-140DF969DA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C56C493-AD74-4265-AB48-140DF969DA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C56C493-AD74-4265-AB48-140DF969DA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09021AE5-5E93-42C9-B38D-28B061EFDFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09021AE5-5E93-42C9-B38D-28B061EFDFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09021AE5-5E93-42C9-B38D-28B061EFDFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09021AE5-5E93-42C9-B38D-28B061EFDFF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

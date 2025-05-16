@@ -10,6 +10,7 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         {
         }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
